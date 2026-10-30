@@ -1,0 +1,1148 @@
+########### for user created playlists 0
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | NA | D:\System\Mp3_res\list3.lst
+
+
+########### for user created playlists 1
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | NA | E:\System\Mp3_res\PL_1.lst
+
+########### for user created playlists 2
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | NA | E:\System\Mp3_res\SomePL.lst
+
+########### for user created playlists 3
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 03 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 02 | 03 | E:\System\Mp3_res\PL_2.lst
+8 | 01 | NA | E:\System\Mp3_res\PL_3.lst
+
+########### for user created playlists 4
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 03 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 02 | 03 | E:\System\Mp3_res\PL_2.lst
+8 | 02 | 03 | E:\System\Mp3_res\PL_3.lst
+9 | 00 | NA | E:\System\Mp3_res\PL_4.lst
+
+########### for user created playlists 5
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | NA | E:\System\Mp3_res\P_l_5.lst
+
+########### for user created playlists 6
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | NA | E:\System\Mp3_res\pL6.lst
+
+########### for user created playlists 7
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | NA | E:\System\Mp3_res\L7p.lst
+
+########### for user created playlists 8
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | NA | E:\System\Mp3_res\Spl8.lst
+
+########### for user created playlists 9
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | NA | E:\System\Mp3_res\Pl9.lst
+
+
+########### for user created playlists 10
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | NA | E:\System\Mp3_res\Pl10.lst
+
+
+########### for user created playlists 11
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | NA | E:\System\Mp3_res\pl11.lst
+
+########### for user created playlists 12
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 00 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | NA | E:\System\Mp3_res\S12pl.lst
+
+########### for user created playlists 13
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | NA | E:\System\Mp3_res\Pl13.lst
+
+########### for user created playlists 14
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | NA | E:\System\Mp3_res\Pl14.lst
+
+########### for user created playlists 15
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | NA | E:\System\Mp3_res\Pl15.lst
+
+########### for user created playlists 16
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | NA | E:\System\Mp3_res\Pl16.lst
+
+########### for user created playlists 17
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | NA | E:\System\Mp3_res\Pl17.lst
+
+########### for user created playlists 18
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | NA | E:\System\Mp3_res\Pl18.lst
+
+########### for user created playlists 19
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | NA | E:\System\Mp3_res\Pl19.lst
+
+########### for user created playlists 20
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | NA | E:\System\Mp3_res\Pl20.lst
+
+########### for user created playlists 21
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | NA | E:\System\Mp3_res\Pl21.lst
+
+########### for user created playlists 22
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | NA | E:\System\Mp3_res\Pl22.lst
+
+########### for user created playlists 23
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | NA | E:\System\Mp3_res\Pl23.lst
+
+########### for user created playlists 24
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | NA | E:\System\Mp3_res\Pl24.lst
+
+########### for user created playlists 25
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | NA | E:\System\Mp3_res\Pl25.lst
+
+########### for user created playlists 26
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | NA | E:\System\Mp3_res\Pl26.lst
+
+########### for user created playlists 27
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | NA | E:\System\Mp3_res\Pl27.lst
+
+########### for user created playlists 28
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | NA | E:\System\Mp3_res\Pl28.lst
+
+########### for user created playlists 29
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | NA | E:\System\Mp3_res\Pl29.lst
+
+########### for user created playlists 30
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | 03 | E:\System\Mp3_res\Pl29.lst
+35 | 00 | NA | E:\System\Mp3_res\Pl30.lst
+
+########### for user created playlists 31
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | 03 | E:\System\Mp3_res\Pl29.lst
+35 | 00 | 03 | E:\System\Mp3_res\Pl30.lst
+36 | 00 | NA | E:\System\Mp3_res\Pl31.lst
+
+########### for user created playlists 32
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | 03 | E:\System\Mp3_res\Pl29.lst
+35 | 00 | 03 | E:\System\Mp3_res\Pl30.lst
+36 | 00 | 03 | E:\System\Mp3_res\Pl31.lst
+37 | 00 | NA | E:\System\Mp3_res\Pl32.lst
+
+########### for user created playlists 33
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | 03 | E:\System\Mp3_res\Pl29.lst
+35 | 00 | 03 | E:\System\Mp3_res\Pl30.lst
+36 | 00 | 03 | E:\System\Mp3_res\Pl31.lst
+37 | 00 | 03 | E:\System\Mp3_res\Pl32.lst
+38 | 00 | NA | E:\System\Mp3_res\Pl33.lst
+
+########### for user created playlists 34
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | 03 | E:\System\Mp3_res\Pl29.lst
+35 | 00 | 03 | E:\System\Mp3_res\Pl30.lst
+36 | 00 | 03 | E:\System\Mp3_res\Pl31.lst
+37 | 00 | 03 | E:\System\Mp3_res\Pl32.lst
+38 | 00 | 03 | E:\System\Mp3_res\Pl33.lst
+39 | 00 | NA | E:\System\Mp3_res\Pl34.lst
+
+########### for user created playlists 35
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | 03 | E:\System\Mp3_res\Pl20.lst
+26 | 00 | 03 | E:\System\Mp3_res\Pl21.lst
+27 | 00 | 03 | E:\System\Mp3_res\Pl22.lst
+28 | 00 | 03 | E:\System\Mp3_res\Pl23.lst
+29 | 00 | 03 | E:\System\Mp3_res\Pl24.lst
+30 | 00 | 03 | E:\System\Mp3_res\Pl25.lst
+31 | 00 | 03 | E:\System\Mp3_res\Pl26.lst
+32 | 00 | 03 | E:\System\Mp3_res\Pl27.lst
+33 | 00 | 03 | E:\System\Mp3_res\Pl28.lst
+34 | 00 | 03 | E:\System\Mp3_res\Pl29.lst
+35 | 00 | 03 | E:\System\Mp3_res\Pl30.lst
+36 | 00 | 03 | E:\System\Mp3_res\Pl31.lst
+37 | 00 | 03 | E:\System\Mp3_res\Pl32.lst
+38 | 00 | 03 | E:\System\Mp3_res\Pl33.lst
+39 | 00 | 03 | E:\System\Mp3_res\Pl34.lst
+40 | 00 | NA | E:\System\Mp3_res\Pl35.lst
+
+
+Playlist Name | Entry Number
+--------------|-------------
+PL_1.lst    6
+SomePL.lst  7
+Pl_3.lst    8
+Pl4.lst     9
+P_l_5.lst   10
+pL6.lst     11
+L7p.lst     12
+Spl8.lst    13
+Pl9.lst     14
+Pl10.lst    15
+pl11.lst    16
+S12pl.lst   17
+Pl13.lst    18
+Pl14.lst    19
+Pl15.lst    20
+Pl16.lst    21
+Pl17.lst    22
+Pl18.lst    23
+Pl19.lst    24
+Pl20.lst    25
+Pl21.lst    26
+Pl22.lst    27
+Pl23.lst    28
+Pl24.lst    29
+Pl25.lst    30
+Pl26.lst    31
+Pl27.lst    32
+Pl28.lst    33
+Pl29.lst    34
+Pl30.lst    35
+Pl31.lst    36
+Pl32.lst    37
+Pl33.lst    38
+Pl34.lst    39
+Pl35.lst    40
+
+===================
+
+5th byte pattern
+
+user created playlists none:        00 00 00 00 00
+user created playlists one:         00 00 00 00 00, 00
+user created playlists two:         00 00 00 00 00, 00 00
+user created playlists three:       00 00 00 00 00, 03 02 01
+user created playlists four:        00 00 00 00 00, 03 02 02 00
+user created playlists five:        00 00 00 00 00, 00 00 00 00 00
+user created playlists six:         00 00 00 00 00, 00 00 00 00 00 00
+user created playlists seven:       00 00 00 00 00, 00 00 00 00 00 00 01
+user created playlists eight:       00 00 00 00 00, 00 00 00 00 00 00 01 00
+user created playlists nine:        00 00 00 00 00, 00 00 00 00 00 00 01 00 00
+user created playlists ten:         00 00 00 00 00, 00 00 00 00 00 00 01 00 00 00
+user created playlists eleven:      00 00 00 00 00, 00 00 00 00 00 00 01 00 00 00 00
+user created playlists twelve:      00 00 00 00 00, 00 00 00 00 00 00 01 00 00 00 00 00
+user created playlists thirteen:    00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00
+user created playlists fourteen:    00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00
+user created playlists fifteen:     00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00
+user created playlists sixteen:     00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00
+user created playlists seventeen:   00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00
+user created playlists eighteen:    00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00
+user created playlists ninteen:     00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists twenty:      00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 21:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 22:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 23:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 24:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 25:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 26:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 27:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 28:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 29:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+user created playlists 30:          00 00 00 00 00, 00 01 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+
+13th byte pattern
+
+user created playlists none:    01 02 02 02 NA
+user created playlists one:     01 02 02 02 03, NA
+user created playlists two:     01 02 02 02 03, 03 NA
+user created playlists three:   01 02 02 02 03, 03 03 NA
+user created playlists four:    01 02 02 02 03, 03 03 03 NA
+user created playlists five:    01 02 02 02 03, 03 03 03 03 NA
+user created playlists six:     01 02 02 02 03, 03 03 03 03 03 NA
+user created playlists seven:   01 02 02 02 03, 03 03 03 03 03 03 NA
+user created playlists eight:   01 02 02 02 03, 03 03 03 03 03 03 03 NA
+user created playlists nine:    01 02 02 02 03, 03 03 03 03 03 03 03 03 NA
+user created playlists ten:     01 02 02 02 03, 03 03 03 03 03 03 03 03 03 NA
+user created playlists eleven:  01 02 02 02 03, 03 03 03 03 03 03 03 03 03 03 NA
+user created playlists twelve:  01 02 02 02 03, 03 03 03 03 03 03 03 03 03 03 03 NA
+
+
+
+
+5th byte
+
+00
+00 00
+03 02 01
+03 02 02 00
+00 00 00 00 00
+00 00 00 00 00 00
+00 00 00 00 00 00 01
+00 00 00 00 00 00 01 00
+
+00 00 00 00 00 00 01 00 00
+00 00 00 00 00 00 01 00 00 00
+00 00 00 00 00 00 01 00 00 00 00
+00 00 00 00 00 00 01 00 00 00 00 00
+00 01 00 00 00 00 01 00 00 00 00 00 00
+00 01 00 00 00 00 01 00 00 00 00 00 00 00
+
+
+
+
+14 Pl9 starts in 194 row
+15 pl10 208 row
+16 pl11 223 row

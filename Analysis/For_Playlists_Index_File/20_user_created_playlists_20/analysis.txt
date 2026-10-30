@@ -1,0 +1,177 @@
+Following is the analysis of playlists index file named `listinfo.data` containing 20 user-created playlists on phone.
+
+The hex-dump of that file can be found in `hex_dump.txt` in this file's folder.
+
+------
+
+Based on the analysis done for `listinfo.data` containing entries for 3 and 4 user-created playlists (refer `analysis.txt`
+in `Analysis/For_Playlists_Index_File/03_user_created_playlists_three` and `Analysis/For_Playlists_Index_File/03_user_created_playlists_four`
+folders
+
+we will investigate only the last two entries because
+
+all entries except last should occupy 532 bytes.
+last-entry should contain 524 bytes.
+
+~~~~~~~~~~~
+
+!!!!!!!!!!!! TODO: Update the offsets !!!!!!!!!!!!!!
+
+TwentyFourth entry starts in 282th row at 28th byte (offset 0x279F) and ends in 297th row at 11th byte (offset 0x29AA).
+
+TwentyFifth entry starts in 282th row at 28th byte (offset 0x279F) and ends in 297th row at 11th byte (offset 0x29AA).
+
+Let's subtract the hex offsets to find the occupied bytes.
+
+TwentyFourth entry:
+  279E - 258B = 213 = 531 in decimal. Because of subtraction we loose one count so include it back. So that becomes 532 bytes.
+
+TwentyFifth entry:
+  29AA - 279F = 20B = 523 in decimal. Adding back the one count we get 524 bytes.
+
+~~~~~~~~~~~
+
+Let's consider the ending bytes for all the entries. We will consider from the one which doesn't start with 00 byte
+and goes upto the last byte for that entry.
+
+Based on the previous analysis for `listinfo.data` containing entries for 3 and 4 user-created playlists
+
+for all entries except last we should have 20 ending bytes
+for last entry we should 12 ending bytes
+
+Accordingly
+
+For first entry following are the bytes
+
+  24 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+
+For second entry following are the bytes
+
+  1d 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+For third entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+For fourth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+For fifth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For sixth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For seventh entry following are the bytes
+
+  1c 00 00 00 01 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For eighth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For ninth entry following are the bytes
+
+  19 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For tenth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For eleventh entry following are the bytes
+
+  19 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twelfth entry following are the bytes
+
+  19 00 00 00 01 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For thirteenth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For fourteenth entry following are the bytes
+
+  19 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For fifteenth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For sixteenth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For seventeenth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For eighteenth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For nineteenth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twentieth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twenty-first entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twenty-second entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twenty-third entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twenty-fourth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For twenty-fifth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00
+
+
+~~~~~~~~~~~~~
+
+Based on the previous analysis for `listinfo.data` containing entries for 3 and 4 user-created playlists
+we need to decode only the 5th and 13th byte data.
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 00 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 01 | 03 | E:\System\Mp3_res\SomePL.lst
+8 | 00 | 03 | E:\System\Mp3_res\Pl_3.lst
+9 | 00 | 03 | E:\System\Mp3_res\Pl4.lst
+10 | 00 | 03 | E:\System\Mp3_res\P_l_5.lst
+11 | 00 | 03 | E:\System\Mp3_res\pL6.lst
+12 | 01 | 03 | E:\System\Mp3_res\L7p.lst
+13 | 00 | 03 | E:\System\Mp3_res\Spl8.lst
+14 | 00 | 03 | E:\System\Mp3_res\Pl9.lst
+15 | 00 | 03 | E:\System\Mp3_res\Pl10.lst
+16 | 00 | 03 | E:\System\Mp3_res\pl11.lst
+17 | 00 | 03 | E:\System\Mp3_res\S12pl.lst
+18 | 00 | 03 | E:\System\Mp3_res\Pl13.lst
+19 | 00 | 03 | E:\System\Mp3_res\Pl14.lst
+20 | 00 | 03 | E:\System\Mp3_res\Pl15.lst
+21 | 00 | 03 | E:\System\Mp3_res\Pl16.lst
+22 | 00 | 03 | E:\System\Mp3_res\Pl17.lst
+23 | 00 | 03 | E:\System\Mp3_res\Pl18.lst
+24 | 00 | 03 | E:\System\Mp3_res\Pl19.lst
+25 | 00 | NA | E:\System\Mp3_res\Pl20.lst

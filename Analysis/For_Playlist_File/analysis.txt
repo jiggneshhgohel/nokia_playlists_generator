@@ -1,0 +1,547 @@
+Following is the content of playlist file (having extension .lst) I created on my Nokia 220 4g. The playlist file contains 3 entries.
+That file can be found when mounting the SD card onto computer and going to `<SD_CARD_ROOT>/System/Mp3_res` path.
+
+```
+jignesh@jignesh-pc:~/Desktop$ xxd PL_1.lst
+00000000: 4d55 5349 4341 5252 4159 2053 4156 4546  MUSICARRAY SAVEF
+00000010: 494c 4520 3031 2e30 302e 3045 003a 005c  ILE 01.00.0E.:.\
+00000020: 004d 0059 005f 004d 0055 0053 0049 0043  .M.Y._.M.U.S.I.C
+00000030: 005f 0043 004f 004c 004c 0045 0043 0054  ._.C.O.L.L.E.C.T
+00000040: 0049 004f 004e 005c 0053 0070 0069 0072  .I.O.N.\.S.p.i.r
+00000050: 0069 0074 0075 0061 006c 005c 0053 0068  .i.t.u.a.l.\.S.h
+00000060: 0072 0069 0020 0047 0075 0072 0075 0020  .r.i. .G.u.r.u.
+00000070: 0044 0061 0074 0074 0061 0074 0072 0065  .D.a.t.t.a.t.r.e
+00000080: 0079 0061 005c 0044 0061 0074 0074 0061  .y.a.\.D.a.t.t.a
+00000090: 0020 0041 0061 0072 0074 0069 0020 0028  . .A.a.r.t.i. .(
+000000a0: 0050 0065 006e 0064 0075 004a 0061 0074  .P.e.n.d.u.J.a.t
+000000b0: 0074 002e 0043 006f 006d 002e 0053 0065  .t...C.o.m...S.e
+000000c0: 0029 002e 006d 0070 0033 0000 0000 0000  .)...m.p.3......
+000000d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000000e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000000f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000100: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000110: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000120: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000130: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000140: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000150: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000160: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000170: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000180: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000190: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000001a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000001b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000001c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000001d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000001e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000001f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000200: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000210: 0000 0000 0000 0000 0000 0058 0015 03ea  ...........X....
+00000220: 0700 0000 1b0b 0071 e847 0045 003a 005c  .......q.G.E.:.\
+00000230: 004d 0059 005f 004d 0055 0053 0049 0043  .M.Y._.M.U.S.I.C
+00000240: 005f 0043 004f 004c 004c 0045 0043 0054  ._.C.O.L.L.E.C.T
+00000250: 0049 004f 004e 005c 0053 0070 0069 0072  .I.O.N.\.S.p.i.r
+00000260: 0069 0074 0075 0061 006c 005c 0053 0068  .i.t.u.a.l.\.S.h
+00000270: 0072 0069 0020 0047 0075 0072 0075 0020  .r.i. .G.u.r.u.
+00000280: 0044 0061 0074 0074 0061 0074 0072 0065  .D.a.t.t.a.t.r.e
+00000290: 0079 0061 005c 0044 0061 0074 0074 0061  .y.a.\.D.a.t.t.a
+000002a0: 0020 0044 0061 0074 0074 0061 0020 004d  . .D.a.t.t.a. .M
+000002b0: 0068 0061 006e 0074 0061 0020 004e 0069  .h.a.n.t.a. .N.i
+000002c0: 0074 0079 0061 0020 0028 0050 0065 006e  .t.y.a. .(.P.e.n
+000002d0: 0064 0075 004a 0061 0074 0074 002e 0043  .d.u.J.a.t.t...C
+000002e0: 006f 006d 002e 0053 0065 0029 002e 006d  .o.m...S.e.)...m
+000002f0: 0070 0033 0000 0000 0000 0000 0000 0000  .p.3............
+00000300: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000310: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000320: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000330: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000340: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000350: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000360: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000370: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000380: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000390: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000003a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000003b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000003c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000003d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000003e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000003f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000400: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000410: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000420: 0000 0000 0000 0000 0000 0065 0015 03ea  ...........e....
+00000430: 0700 0010 120b 0005 29e6 0045 003a 005c  ........)..E.:.\
+00000440: 004d 0059 005f 004d 0055 0053 0049 0043  .M.Y._.M.U.S.I.C
+00000450: 005f 0043 004f 004c 004c 0045 0043 0054  ._.C.O.L.L.E.C.T
+00000460: 0049 004f 004e 005c 0053 0070 0069 0072  .I.O.N.\.S.p.i.r
+00000470: 0069 0074 0075 0061 006c 005c 0053 0068  .i.t.u.a.l.\.S.h
+00000480: 0072 0069 0020 0047 0075 0072 0075 0020  .r.i. .G.u.r.u.
+00000490: 0044 0061 0074 0074 0061 0074 0072 0065  .D.a.t.t.a.t.r.e
+000004a0: 0079 0061 005c 0044 0061 0074 0074 0061  .y.a.\.D.a.t.t.a
+000004b0: 0020 0047 0061 0079 0061 0074 0072 0069  . .G.a.y.a.t.r.i
+000004c0: 0020 004d 0061 006e 0074 0072 0061 0020  . .M.a.n.t.r.a.
+000004d0: 0031 0030 0038 0020 0054 0069 006d 0065  .1.0.8. .T.i.m.e
+000004e0: 0073 0020 0028 0050 0065 006e 0064 0075  .s. .(.P.e.n.d.u
+000004f0: 004a 0061 0074 0074 002e 0043 006f 006d  .J.a.t.t...C.o.m
+00000500: 002e 0053 0065 0029 002e 006d 0070 0033  ...S.e.)...m.p.3
+00000510: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000520: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000530: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000540: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000550: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000560: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000570: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000580: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000590: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000005a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000005b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000005c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000005d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000005e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+000005f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000600: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000610: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000620: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000630: 0000 0000 0000 0000 0000 006b 0015 03ea  ...........k....
+00000640: 0700 001c 0508 0040 da9d 03              .......@...
+```
+
+Note: regarding the command `xxd` used refer AI_2.txt.
+
+
+------
+
+
+In Ghex editor
+
+Each row contains 36 bytes.
+
+In 1st row the header
+
+MUSICARRAY SAVEFILE 01.00.0
+
+occupies 27 bytes.
+
+First entry starts at 28th byte (offset 0x1b) and ends in 16th row at 15th byte (offset 0x22A).
+Note: Offset can be found in ghex editor on bottom left when clicking a byte.
+
+Second entry starts in 16th row at 16th byte (offset 0x22B) and ends in 31st row at 3rd byte (offset 0x43A).
+
+Third entry starts in 31st row at 4th byte (offset 0x43B) and ends in 45th row at 27th byte (offset 0x64A).
+
+
+~~~~~~
+
+First entry starts in 1st row at 28th byte (offset 0x1b) and ends in 16th row at 15th byte (offset 0x22A).
+
+So first entry starts at 28th byte.
+First entry ends at which byte?
+
+15 rows = 540 bytes.
+16th row = 15 bytes.
+
+So first entry ends at 555th byte.
+
+1st row = 9 bytes.
+2nd to 15th rows = 14 rows = 504 bytes.
+16th row = 15 bytes
+
+9 + 504 + 15
+
+So first entry contains total 528 bytes.
+
+~~~~~~~
+
+Second entry starts in 16th row at 16th byte (offset 0x22B) and ends in 31st row at 3rd byte (offset 0x43A).
+
+So Second entry starts at 556th byte.
+Second entry ends at which byte?
+
+30 rows = 1080 bytes.
+31st row = 3 bytes
+
+So second entry ends at 1083rd byte.
+
+16th row = 21 bytes
+17th to 30th rows = that comes to 14 rows = 504 bytes.
+31st row = 3 bytes
+
+21 + 504 + 3 = 528 bytes.
+
+So second entry contains total 528 bytes.
+
+
+~~~~~~~~~~~
+
+Third entry starts in 31st row at 4th byte (offset 0x43B) and ends in 45th row at 27 byte (offset 0x64A).
+
+So third entry starts at 1084th byte.
+Third entry ends at which byte?
+
+44 rows = 1584 bytes.
+45th row = 27 bytes
+
+So third entry ends at 1611th byte.
+
+31st row = 33 bytes
+32nd to 44th rows = that comes to 13 rows = 468 bytes.
+45th row = 27 bytes
+
+33 + 468 + 27 = 528 bytes.
+
+So third entry contains total 528 bytes.
+
+~~~~~~~~~~~
+
+So each entry occupies 528 bytes.
+
+~~~~~~~~~~~
+
+Songs paths are
+
+E:\MY_MUSIC_COLLECTION\Spiritual\Shri Guru Dattatreya\Shri Dattatreya\Datta Aarti (PenduJatt.Com.Se).mp3
+E:\MY_MUSIC_COLLECTION\Spiritual\Shri Guru Dattatreya\Shri Dattatreya\Datta Datta Mhanta Nitya (PenduJatt.Com.Se).mp3
+E:\MY_MUSIC_COLLECTION\Spiritual\Shri Guru Dattatreya\Shri Dattatreya\Datta Gayatri Mantra 108 Times (PenduJatt.Com.Se).mp3
+
+Now each character in the path is followed by a null byte which shows up as a dot in ghex editor. For e.g.
+
+the path
+
+```
+E:\MY_MUSIC_COLLECTION\Spiritual\Shri Guru Dattatreya\Shri Dattatreya\Datta Aarti (PenduJatt.Com.Se).mp3
+```
+
+in hex editor looks like following wherein each dot represents a null byte (having hex code 00)
+
+```
+E.:.\.M.Y._.M.U.S.I.C._.C.O.L.L.E.C.T.I.O.N.\.S.p.i.r.i.t.u.a.l.\.S.h.r.i. .G.u.r.u. .D.a.t.t.a.t.r.e.y.a.\.S.h.r.i. .D.a.t.t.a.t.r.e.y.a.\.D.a.t.t.a. .A.a.r.t.i. .(.P.e.n.d.u.J.a.t.t...C.o.m...S.e.)...m.p.3.
+```
+
+Following is the ruby code which was executed on irb to get above string
+
+```
+str = "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Shri Dattatreya\\Datta Aarti (PenduJatt.Com.Se).mp3"
+arr = []
+str.chars.each { |c| arr << c; arr << '.' }
+puts arr.join
+```
+
+Now let's print the hex code of each character in the path. We will use the string including dots wherein for dot the hex code should be printed as 00.
+
+```
+def convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path:)
+  arr = []
+
+  path.chars.each do |char|
+    hex_code = char.ord.to_s(16)
+
+    #arr << "char: '#{char}'; hex_code: #{hex_code}"
+    #arr << "char: null; hex_code: 00"
+
+    #arr << "'#{char}' : #{hex_code}"
+    #arr << " : 00"
+
+    arr << [ char, hex_code ]
+    arr << [ nil, '00' ]
+  end
+
+  puts "result:"
+
+  arr_1 = arr.map { |nested_arr| "'#{nested_arr[0]}':#{nested_arr[1]}" }
+  puts arr_1.join(', ')
+  puts
+
+  arr_2 = arr.map { |nested_arr| nested_arr[1] }
+  puts arr_2.join(' ')
+
+  puts
+  puts "occupied bytes count: #{arr.size}"
+
+  arr
+end
+```
+
+~~~~~~~~~~~~~~~
+
+path_1 = "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Shri Dattatreya\\Datta Aarti (PenduJatt.Com.Se).mp3"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_1)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'M':4d, '':00, 'Y':59, '':00, '_':5f, '':00, 'M':4d, '':00, 'U':55, '':00, 'S':53, '':00, 'I':49, '':00, 'C':43, '':00, '_':5f, '':00, 'C':43, '':00, 'O':4f, '':00, 'L':4c, '':00, 'L':4c, '':00, 'E':45, '':00, 'C':43, '':00, 'T':54, '':00, 'I':49, '':00, 'O':4f, '':00, 'N':4e, '':00, '\':5c, '':00, 'S':53, '':00, 'p':70, '':00, 'i':69, '':00, 'r':72, '':00, 'i':69, '':00, 't':74, '':00, 'u':75, '':00, 'a':61, '':00, 'l':6c, '':00, '\':5c, '':00, 'S':53, '':00, 'h':68, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'G':47, '':00, 'u':75, '':00, 'r':72, '':00, 'u':75, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'e':65, '':00, 'y':79, '':00, 'a':61, '':00, '\':5c, '':00, 'S':53, '':00, 'h':68, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'e':65, '':00, 'y':79, '':00, 'a':61, '':00, '\':5c, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, ' ':20, '':00, 'A':41, '':00, 'a':61, '':00, 'r':72, '':00, 't':74, '':00, 'i':69, '':00, ' ':20, '':00, '(':28, '':00, 'P':50, '':00, 'e':65, '':00, 'n':6e, '':00, 'd':64, '':00, 'u':75, '':00, 'J':4a, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, '.':2e, '':00, 'C':43, '':00, 'o':6f, '':00, 'm':6d, '':00, '.':2e, '':00, 'S':53, '':00, 'e':65, '':00, ')':29, '':00, '.':2e, '':00, 'm':6d, '':00, 'p':70, '':00, '3':33, '':00
+
+45 00 3a 00 5c 00 4d 00 59 00 5f 00 4d 00 55 00 53 00 49 00 43 00 5f 00 43 00 4f 00 4c 00 4c 00 45 00 43 00 54 00 49 00 4f 00 4e 00 5c 00 53 00 70 00 69 00 72 00 69 00 74 00 75 00 61 00 6c 00 5c 00 53 00 68 00 72 00 69 00 20 00 47 00 75 00 72 00 75 00 20 00 44 00 61 00 74 00 74 00 61 00 74 00 72 00 65 00 79 00 61 00 5c 00 53 00 68 00 72 00 69 00 20 00 44 00 61 00 74 00 74 00 61 00 74 00 72 00 65 00 79 00 61 00 5c 00 44 00 61 00 74 00 74 00 61 00 20 00 41 00 61 00 72 00 74 00 69 00 20 00 28 00 50 00 65 00 6e 00 64 00 75 00 4a 00 61 00 74 00 74 00 2e 00 43 00 6f 00 6d 00 2e 00 53 00 65 00 29 00 2e 00 6d 00 70 00 33 00
+
+occupied bytes count: 208
+```
+
+~~~~~~~~~
+
+path_2 = "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Shri Dattatreya\\Datta Datta Mhanta Nitya (PenduJatt.Com.Se).mp3"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_2)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'M':4d, '':00, 'Y':59, '':00, '_':5f, '':00, 'M':4d, '':00, 'U':55, '':00, 'S':53, '':00, 'I':49, '':00, 'C':43, '':00, '_':5f, '':00, 'C':43, '':00, 'O':4f, '':00, 'L':4c, '':00, 'L':4c, '':00, 'E':45, '':00, 'C':43, '':00, 'T':54, '':00, 'I':49, '':00, 'O':4f, '':00, 'N':4e, '':00, '\':5c, '':00, 'S':53, '':00, 'p':70, '':00, 'i':69, '':00, 'r':72, '':00, 'i':69, '':00, 't':74, '':00, 'u':75, '':00, 'a':61, '':00, 'l':6c, '':00, '\':5c, '':00, 'S':53, '':00, 'h':68, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'G':47, '':00, 'u':75, '':00, 'r':72, '':00, 'u':75, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'e':65, '':00, 'y':79, '':00, 'a':61, '':00, '\':5c, '':00, 'S':53, '':00, 'h':68, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'e':65, '':00, 'y':79, '':00, 'a':61, '':00, '\':5c, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, ' ':20, '':00, 'M':4d, '':00, 'h':68, '':00, 'a':61, '':00, 'n':6e, '':00, 't':74, '':00, 'a':61, '':00, ' ':20, '':00, 'N':4e, '':00, 'i':69, '':00, 't':74, '':00, 'y':79, '':00, 'a':61, '':00, ' ':20, '':00, '(':28, '':00, 'P':50, '':00, 'e':65, '':00, 'n':6e, '':00, 'd':64, '':00, 'u':75, '':00, 'J':4a, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, '.':2e, '':00, 'C':43, '':00, 'o':6f, '':00, 'm':6d, '':00, '.':2e, '':00, 'S':53, '':00, 'e':65, '':00, ')':29, '':00, '.':2e, '':00, 'm':6d, '':00, 'p':70, '':00, '3':33, '':00
+
+45 00 3a 00 5c 00 4d 00 59 00 5f 00 4d 00 55 00 53 00 49 00 43 00 5f 00 43 00 4f 00 4c 00 4c 00 45 00 43 00 54 00 49 00 4f 00 4e 00 5c 00 53 00 70 00 69 00 72 00 69 00 74 00 75 00 61 00 6c 00 5c 00 53 00 68 00 72 00 69 00 20 00 47 00 75 00 72 00 75 00 20 00 44 00 61 00 74 00 74 00 61 00 74 00 72 00 65 00 79 00 61 00 5c 00 53 00 68 00 72 00 69 00 20 00 44 00 61 00 74 00 74 00 61 00 74 00 72 00 65 00 79 00 61 00 5c 00 44 00 61 00 74 00 74 00 61 00 20 00 44 00 61 00 74 00 74 00 61 00 20 00 4d 00 68 00 61 00 6e 00 74 00 61 00 20 00 4e 00 69 00 74 00 79 00 61 00 20 00 28 00 50 00 65 00 6e 00 64 00 75 00 4a 00 61 00 74 00 74 00 2e 00 43 00 6f 00 6d 00 2e 00 53 00 65 00 29 00 2e 00 6d 00 70 00 33 00
+
+occupied bytes count: 234
+```
+
+
+~~~~~~~~~
+
+path_3 = "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Shri Dattatreya\\Datta Gayatri Mantra 108 Times (PenduJatt.Com.Se).mp3"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_3)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'M':4d, '':00, 'Y':59, '':00, '_':5f, '':00, 'M':4d, '':00, 'U':55, '':00, 'S':53, '':00, 'I':49, '':00, 'C':43, '':00, '_':5f, '':00, 'C':43, '':00, 'O':4f, '':00, 'L':4c, '':00, 'L':4c, '':00, 'E':45, '':00, 'C':43, '':00, 'T':54, '':00, 'I':49, '':00, 'O':4f, '':00, 'N':4e, '':00, '\':5c, '':00, 'S':53, '':00, 'p':70, '':00, 'i':69, '':00, 'r':72, '':00, 'i':69, '':00, 't':74, '':00, 'u':75, '':00, 'a':61, '':00, 'l':6c, '':00, '\':5c, '':00, 'S':53, '':00, 'h':68, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'G':47, '':00, 'u':75, '':00, 'r':72, '':00, 'u':75, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'e':65, '':00, 'y':79, '':00, 'a':61, '':00, '\':5c, '':00, 'S':53, '':00, 'h':68, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'e':65, '':00, 'y':79, '':00, 'a':61, '':00, '\':5c, '':00, 'D':44, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, 'a':61, '':00, ' ':20, '':00, 'G':47, '':00, 'a':61, '':00, 'y':79, '':00, 'a':61, '':00, 't':74, '':00, 'r':72, '':00, 'i':69, '':00, ' ':20, '':00, 'M':4d, '':00, 'a':61, '':00, 'n':6e, '':00, 't':74, '':00, 'r':72, '':00, 'a':61, '':00, ' ':20, '':00, '1':31, '':00, '0':30, '':00, '8':38, '':00, ' ':20, '':00, 'T':54, '':00, 'i':69, '':00, 'm':6d, '':00, 'e':65, '':00, 's':73, '':00, ' ':20, '':00, '(':28, '':00, 'P':50, '':00, 'e':65, '':00, 'n':6e, '':00, 'd':64, '':00, 'u':75, '':00, 'J':4a, '':00, 'a':61, '':00, 't':74, '':00, 't':74, '':00, '.':2e, '':00, 'C':43, '':00, 'o':6f, '':00, 'm':6d, '':00, '.':2e, '':00, 'S':53, '':00, 'e':65, '':00, ')':29, '':00, '.':2e, '':00, 'm':6d, '':00, 'p':70, '':00, '3':33, '':00
+
+45 00 3a 00 5c 00 4d 00 59 00 5f 00 4d 00 55 00 53 00 49 00 43 00 5f 00 43 00 4f 00 4c 00 4c 00 45 00 43 00 54 00 49 00 4f 00 4e 00 5c 00 53 00 70 00 69 00 72 00 69 00 74 00 75 00 61 00 6c 00 5c 00 53 00 68 00 72 00 69 00 20 00 47 00 75 00 72 00 75 00 20 00 44 00 61 00 74 00 74 00 61 00 74 00 72 00 65 00 79 00 61 00 5c 00 53 00 68 00 72 00 69 00 20 00 44 00 61 00 74 00 74 00 61 00 74 00 72 00 65 00 79 00 61 00 5c 00 44 00 61 00 74 00 74 00 61 00 20 00 47 00 61 00 79 00 61 00 74 00 72 00 69 00 20 00 4d 00 61 00 6e 00 74 00 72 00 61 00 20 00 31 00 30 00 38 00 20 00 54 00 69 00 6d 00 65 00 73 00 20 00 28 00 50 00 65 00 6e 00 64 00 75 00 4a 00 61 00 74 00 74 00 2e 00 43 00 6f 00 6d 00 2e 00 53 00 65 00 29 00 2e 00 6d 00 70 00 33 00
+
+occupied bytes count: 246
+
+```
+
+
+
+~~~~~~~~~~~~
+
+So first entry's path occupies 208 bytes.
+Second entry's path occupies 234 bytes.
+Third entry's path occupies 246 byes.
+
+Now each entry occupies 528 bytes.
+
+So for first entry empty bytes are: 528- 208 = 320
+For second entry empty bytes are: 528- 234 = 294
+For third entry empty bytes are: 528- 246 = 282
+
+So let's consider now what occupies the 320 empty bytes for 1st entry.
+
+Based on "The rest of the data" section at https://woozle.org/blog/2025/09-11-Nokia-Playlist/
+let's consider size of the file.
+
+Let's first check size of the file:
+
+```
+jignesh@jignesh-pc:~/Desktop/Nokia Playlist Files/songs_in_the_playlist$ ls -l *.mp3
+-rw-r--r-- 1 jignesh jignesh  4712561 Mar 21  2026 'Datta Aarti (PenduJatt.Com.Se).mp3'
+-rw-r--r-- 1 jignesh jignesh 15083781 Mar 21  2026 'Datta Datta Mhanta Nitya (PenduJatt.Com.Se).mp3'
+-rw-r--r-- 1 jignesh jignesh 60676672 Mar 21  2026 'Datta Gayatri Mantra 108 Times (PenduJatt.Com.Se).mp3'
+
+jignesh@jignesh-pc:~/Desktop/Nokia Playlist Files/songs_in_the_playlist$ python3
+Python 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> hex(4712561)
+'0x47e871'
+
+>>> hex(15083781)
+'0xe62905'
+
+>>> hex(60676672)
+'0x39dda40'
+>>>
+```
+
+In ghex editor first path entry ending part contains 71 E8 47. As can be understood it is the file size hex code written in reverse way (original order is 47 e8 71). Note that there is a null byte hexcode after 47.
+
+Similarly second path entry ending part contains 05 29 E6. Again it is the file size hex code written in reverse way. Original order is e6 29 05.
+Note that there is a null byte hexcode after E6.
+
+Similarly third path entry ending part contains 40 DA 9D 03. Again it is the file size hex code written in reverse way. Original order is 3 9d da 40.
+Note that there is no null byte hex-code after 03.
+
+So I guess the file size is occupying ending 4 bytes.
+
+~~~~~~~~~~~
+
+So each entry's
+
+a block of bytes are occupied by the hex code of characters in the file-path. Each byte is followed by a null byte.
+ending 4 bytes are occupied by hex code of file-size.
+
+
+~~~~~~~~~~~
+
+So first entry format is 208 bytes + unknown bytes + 4 bytes
+Second entry format is   234 bytes + unknown bytes + 4 bytes
+Third entry format is    246 bytes + unknown bytes + 4 bytes
+
+~~~~~~~
+
+first entry begins at offset 0x1b and ends at offset 0x22A.
+second entry begins at offset 0x22B and ends at offset 0x43A.
+third entry starts at offset 0x43B and ends at offset 0x64A.
+
+~~~~~~~~~
+
+in first entry the path starts at offset 0x1B and ends at 0xCA considering that the hexcode of each character in the path is followed by a null byte hex code 00.
+
+in second entry the path starts at offset 0x22B and ends at 0x2F4 considering that the hexcode of each character in the path is followed by a null byte hex code 00.
+
+in third entry the path starts at offset 0x43B and ends at 0x510 considering that the hexcode of each character in the path is followed by a null byte hex code 00.
+
+~~~~~~~~~~~
+
+528
+
+- unknown bytes
+- unknown 12 bytes block
+- 4 bytes block for file size
+
+unknown 12 bytes block
+  for first entry looks like
+
+    58 00 15 03 ea 07 00 00 00 1b 0b 00
+
+  for second entry looks like
+
+    65 00 15 03 ea 07 00 00 10 12 0b 00
+
+  for third entry looks like
+
+    6b 00 15 03 ea 07 00 00 1c 05 08 00
+
+
+  As can be noticed 3rd to 8th bytes are identical in each i.e.
+
+    15 03 ea 07 00 00
+
+  unknown 12 bytes
+    = unknown 1 byte + 1 null byte + 6 bytes + unknown 3 bytes + 1 null byte
+
+  In the 6 bytes the 4 bytes "15 03 ea 07" represents the song file's modified date in format
+
+  <2-digit-date><month-number><4-digit-year>
+
+  21032026 which is Mar 21, 2026.
+
+  This date is in little-endian format.
+
+  ea 07 flipped becomes 07 ea in hex which converts to 20 26 in decimal.
+
+  15 03 flipped becomes 03 15 in hex which converts to 03 21 in decimal.
+
+  ~~~~~~~
+
+  Now let's come to the unknown 1 byte in unknown 12 bytes block.
+  From the analysis shared under "The beginning" section on page https://woozle.org/blog/2025/09-11-Nokia-Playlist/
+  that is the length of the file-path. On irb execute following path
+
+  ```
+    arr = [
+      "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Datta Aarti (PenduJatt.Com.Se).mp3",
+      "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Datta Datta Mhanta Nitya (PenduJatt.Com.Se).mp3",
+      "E:\\MY_MUSIC_COLLECTION\\Spiritual\\Shri Guru Dattatreya\\Datta Gayatri Mantra 108 Times (PenduJatt.Com.Se).mp3"
+    ]
+
+    arr.each do |fp|
+      fp_length = fp.length
+      fp_length_in_hex = fp_length.ord.to_s(16)
+      puts "file path length: #{fp_length}; the length in hex: #{fp_length_in_hex}"
+      puts
+    end
+  ```
+
+  and we get
+
+  ```
+    3.4.4 :017 >
+    file path length: 104; the length in hex: 58
+
+    file path length: 117; the length in hex: 65
+
+    file path length: 123; the length in hex: 6b
+  ```
+
+  They match the actual hex numbers:
+
+  for first entry: 58
+  for second entry: 65
+  for third entry: 6b
+
+  ~~~~~~~~
+
+  So now
+    unknown 12 bytes
+      = 1 byte + 1 null byte + 4 bytes + 2 null bytes + unknown 3 bytes + 1 null byte
+
+      1 byte = path length hex
+
+      4 bytes = hex of file's modified date in format <2-digit-date><month-number><4-digit-year> (like 21032026) in little-endian format.
+
+
+  ~~~~~~~
+
+  Now let's come to the unknown 3 bytes in unknown 12 bytes block.
+
+  for first entry: 00 1b 0b
+
+  for second entry: 10 12 0b
+
+  for third entry: 1c 05 08
+
+  They represents the song file-modification timestamp in UTC in little-endian format. Refer AI_1.txt for more details.
+
+~~~~~~~~~~~
+
+528
+
+- unknown bytes
+- 12 bytes block
+  - 1 byte is (path length hex - 10)
+  - 1 null byte
+  - 4 bytes (hex of file's modified date in format <2-digit-date><month-number><4-digit-year> (like 21032026) in little-endian format)
+  - 2 null bytes
+  - 3 bytes (hex of song file-modification timestamp in UTC in little-endian format)
+  - 1 null byte
+- 4 bytes block (file size hex code in little-endian format)
+
+So let's now come to unknown bytes
+
+The first entry starts at offset 0x1B and ends at 0x22A. Of them the ending part is a 16 bytes block which starts at offset 0x21B.
+The second entry starts at offset 0x22B and ends at 0x43A. Of them the ending part is a 16 bytes block which starts at offset 0x42B.
+The third entry starts at offset 0x43B and ends at 0x64A. Of them the ending part is a 16 bytes block which starts at offset 0x63B.
+
+So the first entry's bytes, excluding ending 16 bytes, block starts at offset 0x1B and ends at 0x21A = 0x1FF
+The second entry's bytes, excluding ending 16 bytes, block starts at offset 0x22B and ends at 0x42A = 0x1FF
+The third entry's bytes, excluding ending 16 bytes block, starts at offset 0x43B and ends at 0x63A = 0x1FF
+
+0x1FF is 511 in decimal. Because of subtraction we lose one count of starting byte in 511. So including it back we get 512.
+So each entry's path uses a 512 bytes block which is filled from left-side with path's each character's hexcode followed by
+a null byte. Once that is done the remaining bytes are filled with null bytes.
+
+So first entry's path occupies 208 bytes and 304 bytes are occupied with null bytes.
+Second entry's path occupies 234 bytes and 278 bytes are occupied with null bytes.
+Third entry's path occupies 246 byes and 266 bytes are occupied with null bytes.
+
+~~~~~~~~~~~
+
+528
+
+- 512 bytes block
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 10 bytes block
+  - 4 bytes (hex of file's modified date in format <2-digit-date><month-number><4-digit-year> (like 21032026) in little-endian format)
+  - 2 null bytes
+  - 3 bytes (hex of song file-modification timestamp in UTC in little-endian format)
+  - 1 null byte
+
+- 4 bytes block (file size hex code in little-endian format)
+
+
+------
+
+
+
+
+

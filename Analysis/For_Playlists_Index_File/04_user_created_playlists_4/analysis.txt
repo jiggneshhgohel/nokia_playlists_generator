@@ -1,0 +1,834 @@
+Following is the analysis of playlists index file named `listinfo.data` containing 4 user-created playlists on phone.
+The hex-dump of that file can be found in `hex_dump.txt` in this file's folder.
+
+
+----------
+
+Note: The first 7 entries are exactly same as analysed before under `Analysis/For_Playlists_Index_File/03_user_created_playlists_three` folder.
+So for information on those entries refer that analysis.
+
+Eighth entry starts in 105th row at 16th byte (offset 0xEAF) and ends in 120th row at 7th byte (offset 0x10C2).
+
+Ninth entry starts in 120th row at 8th byte (offset 0x10C3) and ends in 134th row at 27th byte (offset 0x12CE).
+
+
+~~~~~~~~~~~
+
+Eighth entry starts in 105th row at 16th byte (offset 0xEAF) and ends in 120th row at 7th byte (offset 0x10C2).
+
+So eighth entry starts at 3760th byte.
+Eighth entry ends at which byte?
+
+119 rows = 4284 bytes.
+120th row = 7 bytes
+
+So seventh entry ends at 4291st byte.
+
+105th row = 21 bytes
+106th to 119th rows = that comes to 14 rows = 504 bytes.
+120th row = 7 bytes
+
+21 + 504 + 7 = 532 bytes.
+
+So NOW eighth entry contains total 532 bytes.
+
+~~~~~~~~~~~
+
+Ninth entry starts in 120th row at 8th byte (offset 0x10C3) and ends in 134th row at 27th byte (offset 0x12CE).
+
+So ninth entry starts at 4292nd byte.
+Ninth entry ends at which byte?
+
+133 rows = 4788 bytes.
+134th row = 27 bytes
+
+So seventh entry ends at 4815th byte.
+
+120th row = 29 bytes
+121st to 133th rows = that comes to 13 rows = 468 bytes.
+134th row = 27 bytes
+
+29 + 468 + 27 = 524 bytes.
+
+So ninth entry contains total 524 bytes.
+
+~~~~~~~~~~~
+
+****************************************************
+
+So each entry except last occupies 532 bytes.
+Last entry occupies 524 bytes.
+
+****************************************************
+
+~~~~~~~~~~~
+
+File paths are
+
+E:\System\Mp3_res\audiotemplist.temp
+D:\System\Mp3_res\MyMusic.lst
+D:\System\Mp3_res\list1.lst
+D:\System\Mp3_res\list2.lst
+D:\System\Mp3_res\list3.lst
+E:\System\Mp3_res\PL_1.lst
+E:\System\Mp3_res\PL_2.lst
+E:\System\Mp3_res\PL_3.lst
+E:\System\Mp3_res\PL_4.lst
+
+Now each character in the path is followed by a null byte which shows up as a dot in ghex editor. For e.g.
+
+the path
+
+```
+E:\System\Mp3_res\audiotemplist.temp
+```
+
+in hex editor looks like following wherein each dot represents a null byte (having hex code 00)
+
+```
+E.:.\.S.y.s.t.e.m.\.M.p.3._.r.e.s.\.a.u.d.i.o.t.e.m.p.l.i.s.t...t.e.m.p.
+```
+
+Following is the ruby code which was executed on irb to get above string
+
+```
+str = "E:\\System\\Mp3_res\\audiotemplist.temp"
+arr = []
+str.chars.each { |c| arr << c; arr << '.' }
+puts arr.join
+```
+
+Now let's print the hex code of each character in the path. We will use the string including dots wherein for dot the hex code should be printed as 00.
+
+```
+def convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path:)
+  arr = []
+
+  path.chars.each do |char|
+    hex_code = char.ord.to_s(16)
+
+    #arr << "char: '#{char}'; hex_code: #{hex_code}"
+    #arr << "char: null; hex_code: 00"
+
+    #arr << "'#{char}' : #{hex_code}"
+    #arr << " : 00"
+
+    arr << [ char, hex_code ]
+    arr << [ nil, '00' ]
+  end
+
+  puts "result:"
+
+  arr_1 = arr.map { |nested_arr| "'#{nested_arr[0]}':#{nested_arr[1]}" }
+  puts arr_1.join(', ')
+  puts
+
+  arr_2 = arr.map { |nested_arr| nested_arr[1] }
+  puts arr_2.join(' ')
+
+  puts
+  puts "occupied bytes count: #{arr.size}"
+
+  arr
+end
+```
+
+~~~~~~~~~~~~~~~
+
+path_1 = "E:\\System\\Mp3_res\\audiotemplist.temp"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_1)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'a':61, '':00, 'u':75, '':00, 'd':64, '':00, 'i':69, '':00, 'o':6f, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, 'p':70, '':00, 'l':6c, '':00, 'i':69, '':00, 's':73, '':00, 't':74, '':00, '.':2e, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, 'p':70, '':00
+
+45 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 61 00 75 00 64 00 69 00 6f 00 74 00 65 00 6d 00 70 00 6c 00 69 00 73 00 74 00 2e 00 74 00 65 00 6d 00 70 00
+
+occupied bytes count: 72
+
+```
+
+~~~~~~~~~
+
+path_2 = "D:\\System\\Mp3_res\\MyMusic.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_2)
+
+```
+result:
+'D':44, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'M':4d, '':00, 'y':79, '':00, 'M':4d, '':00, 'u':75, '':00, 's':73, '':00, 'i':69, '':00, 'c':63, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+44 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 4d 00 79 00 4d 00 75 00 73 00 69 00 63 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 58
+
+```
+
+
+~~~~~~~~~
+
+path_3 = "D:\\System\\Mp3_res\\list1.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_3)
+
+```
+result:
+'D':44, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'l':6c, '':00, 'i':69, '':00, 's':73, '':00, 't':74, '':00, '1':31, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+44 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 6c 00 69 00 73 00 74 00 31 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 54
+
+```
+
+~~~~~~~~~~~~~~
+
+path_4 = "D:\\System\\Mp3_res\\list2.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_4)
+
+```
+result:
+'D':44, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'l':6c, '':00, 'i':69, '':00, 's':73, '':00, 't':74, '':00, '2':32, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+44 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 6c 00 69 00 73 00 74 00 32 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 54
+```
+
+~~~~~~~~~~~~
+
+path_5 = "D:\\System\\Mp3_res\\list3.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_5)
+
+```
+result:
+'D':44, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'l':6c, '':00, 'i':69, '':00, 's':73, '':00, 't':74, '':00, '3':33, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+44 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 6c 00 69 00 73 00 74 00 33 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 54
+```
+
+~~~~~~~~~~~~
+
+path_6 = "E:\\System\\Mp3_res\\PL_1.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_6)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'P':50, '':00, 'L':4c, '':00, '_':5f, '':00, '1':31, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+45 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 50 00 4c 00 5f 00 31 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 52
+```
+
+~~~~~~~~~~~~
+
+path_7 = "E:\\System\\Mp3_res\\PL_2.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_7)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'P':50, '':00, 'L':4c, '':00, '_':5f, '':00, '2':32, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+45 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 50 00 4c 00 5f 00 32 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 52
+```
+
+
+~~~~~~~~~~~~
+
+path_8 = "E:\\System\\Mp3_res\\PL_3.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_8)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'P':50, '':00, 'L':4c, '':00, '_':5f, '':00, '3':33, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+45 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 50 00 4c 00 5f 00 33 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 52
+```
+
+~~~~~~~~~~~~
+
+path_9 = "E:\\System\\Mp3_res\\PL_4.lst"
+arr = convert_given_path_characters_to_hex_code_separated_by_hexcode_00(path: path_9)
+
+```
+result:
+'E':45, '':00, ':':3a, '':00, '\':5c, '':00, 'S':53, '':00, 'y':79, '':00, 's':73, '':00, 't':74, '':00, 'e':65, '':00, 'm':6d, '':00, '\':5c, '':00, 'M':4d, '':00, 'p':70, '':00, '3':33, '':00, '_':5f, '':00, 'r':72, '':00, 'e':65, '':00, 's':73, '':00, '\':5c, '':00, 'P':50, '':00, 'L':4c, '':00, '_':5f, '':00, '4':34, '':00, '.':2e, '':00, 'l':6c, '':00, 's':73, '':00, 't':74, '':00
+
+45 00 3a 00 5c 00 53 00 79 00 73 00 74 00 65 00 6d 00 5c 00 4d 00 70 00 33 00 5f 00 72 00 65 00 73 00 5c 00 50 00 4c 00 5f 00 34 00 2e 00 6c 00 73 00 74 00
+
+occupied bytes count: 52
+
+```
+
+~~~~~~~~~~~~
+
+So first entry's path occupies 72 bytes.
+
+Second entry's path occupies 58 bytes.
+
+Third entry's path occupies 54 bytes.
+Fourth entry's path occupies 54 bytes.
+Fifth entry's path occupies 54 bytes.
+
+Sixth entry's path occupies 52 bytes.
+Seventh entry's path occupies 52 bytes.
+Eighth entry's path occupies 52 bytes.
+Ninth entry's path occupies 52 bytes.
+
+
+Now each entry except last occupies 532 bytes.
+Last entry occupies 524 bytes.
+
+So for first entry empty bytes are: 532- 72 = 460
+
+For second entry empty bytes are: 532- 58 = 474
+
+For third entry empty bytes are: 532- 54 = 478
+For fourth entry empty bytes are: 532- 54 = 478
+For fifth entry empty bytes are: 532- 54 = 478
+
+For sixth entry empty bytes are: 532- 52 = 480
+For seventh entry empty bytes are: 532- 52 = 480
+For eighth entry empty bytes are: 532- 52 = 480
+
+For ninth entry empty bytes are: 524- 52 = 472
+
+~~~~~~~~~~~~~~~~
+
+So let's consider now what occupies the 460 empty bytes for 1st entry.
+
+Let's consider the ending bytes for each entry. We will consider from the one which doesn't start with 00 byte
+and goes upto the last byte for that entry. Accordingly
+
+For first entry following are the bytes
+
+  24 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+
+For second entry following are the bytes
+
+  1d 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+For third entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+For fourth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+For fifth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For sixth entry following are the bytes
+
+  1a 00 00 00 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For seventh entry following are the bytes
+
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For eighth entry following are the bytes
+
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+For ninth entry following are the bytes
+
+  1a 00 00 00 00 00 00 00 00 00 00 00
+
+So for first 8 entries there are 20 ending bytes which starts from non-null byte. For e.g. first entry starts with 24, for second 1d etc.
+So for the last 9th entry there are 12 ending bytes which starts from non-null byte.
+
+~~~~~~~~~
+
+Each entry except last occupies 532 bytes.
+Last entry occupies 524 bytes.
+
+532
+
+- 512 bytes block (532 bytes - 20 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 20 bytes block
+  -- this will be decoded ahead.
+
+524
+
+- 512 bytes block (524 bytes - 12 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 12 bytes block
+  -- this will be decoded ahead.
+
+~~~~~~~~~~
+
+Now let's analyse each entry's ending bytes to decode what the non-null bytes represents.
+
+First entry
+
+path:
+  E:\System\Mp3_res\audiotemplist.temp
+
+ending bytes
+  24 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00
+
+So what does 24 hex represent? In decimal it is 36.
+Let's count the length of path. It comes to 36.
+
+$$$$$$$$$$$$
+
+Second entry
+
+path
+  D:\System\Mp3_res\MyMusic.lst
+
+ending bytes
+  1d 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+So what does 1d hex represent? In decimal it is 29.
+The length of path is 29.
+
+$$$$$$$$$$$$
+
+Third entry
+
+path
+  D:\System\Mp3_res\list1.lst
+
+ending bytes
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+So what does 1b hex represent? In decimal it is 27.
+The length of path is 27.
+
+$$$$$$$$$$$$
+
+Fourth entry
+
+path
+  D:\System\Mp3_res\list2.lst
+
+ending bytes
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00
+
+So what does 1b hex represent? In decimal it is 27.
+The length of path is 27.
+
+$$$$$$$$$$$$
+
+Fifth entry
+
+path
+  D:\System\Mp3_res\list3.lst
+
+ending bytes
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+So what does 1b hex represent? In decimal it is 27.
+The length of path is 27.
+
+$$$$$$$$$$$$
+
+Sixth entry
+
+path
+  E:\System\Mp3_res\PL_1.lst
+
+ending bytes
+  1a 00 00 00 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+So what does 1a hex represent? In decimal it is 26.
+The length of path is 26.
+
+$$$$$$$$$$$$
+
+Seventh entry
+
+path
+  E:\System\Mp3_res\PL_2.lst
+
+ending bytes
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+So what does 1a hex represent? In decimal it is 26.
+The length of path is 26.
+
+$$$$$$$$$$$$
+
+Eighth entry
+
+path
+  E:\System\Mp3_res\PL_3.lst
+
+ending bytes
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00
+
+So what does 1a hex represent? In decimal it is 26.
+The length of path is 26.
+
+$$$$$$$$$$$$
+
+Ninth entry
+
+path
+  E:\System\Mp3_res\PL_4.lst
+
+ending bytes
+  1a 00 00 00 00 00 00 00 00 00 00 00
+
+So what does 1a hex represent? In decimal it is 26.
+The length of path is 26.
+
+So the first byte in ending 20 bytes for first 8 entries is length of path.
+And the first byte in ending 12 bytes for the last 9th entry is length of path.
+
+~~~~~~~~~~~~~~~~~~~~~
+
+Each entry except last occupies 532 bytes.
+Last entry occupies 524 bytes.
+
+532
+
+- 512 bytes block (532 bytes - 20 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 18 bytes block
+  -- this will be decoded ahead.
+
+524
+
+- 512 bytes block (524 bytes - 12 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 10 bytes block
+  -- this will be decoded ahead.
+
+~~~~~~~~~~~~~~~~~~~~~
+
+Now in the ending bytes for 9 entries
+
+the 5th byte is following:
+  00
+  00
+  00
+  00
+  00
+
+  03
+  02
+  02
+  00
+
+the 13th byte is following:
+
+  01
+  02
+  02
+  02
+  03
+
+  03
+  03
+  03
+
+  <for 9th entry not applicable because there are only 12 ending bytes>
+
+Now note that 6th to 9th entries are phone-user created playlists.
+
+Their paths are
+
+E:\System\Mp3_res\PL_1.lst
+E:\System\Mp3_res\PL_2.lst
+E:\System\Mp3_res\PL_3.lst
+E:\System\Mp3_res\PL_4.lst
+
+Now let's check what does the 5th byte represent for each entry from 6th to 9th? Let's guess: number of songs in the playlist?
+
+Let's check the playlist in the phone
+
+PL_1 contains 6 songs
+PL_2 contains 3 songs
+PL_3 contains 0 songs
+PL_4 contains 0 songs
+
+So no the 5th byte hex code
+
+  03
+  02
+  02
+  00
+
+for 6th to 9th entries doesn't represent the number of songs in the playlist.
+
+@@@@@@@@@@@@@@@@@@@@@@
+
+So let's try to decode it by analysing those bytes in the file containing 8 entries (ref: analysis under "Analysis/For_Playlists_Index_File/03_user_created_playlists_three" folder)
+
+For first entry following are the bytes
+
+  24 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  24 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 (bytes in file containing 9 entries i.e this file)
+
+For second entry following are the bytes
+
+  1d 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  1d 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+For third entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+
+For fourth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+For fifth entry following are the bytes
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  1b 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+For sixth entry following are the bytes
+
+  1a 00 00 00 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  1a 00 00 00 03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+For seventh entry following are the bytes
+
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 8 entries)
+
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+For eighth entry following are the bytes
+
+  1a 00 00 00 01 00 00 00 00 00 00 00                         (bytes in file containing 8 entries)
+
+  1a 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 (bytes in file containing 9 entries)
+
+
+Now in the ending bytes for 8 entries in the file containing 8 entries
+
+the 5th byte is following:
+  00
+  00
+  00
+  00
+  00
+
+  03
+  02
+  01
+
+the 13th byte is following:
+
+  01
+  02
+  02
+  02
+
+  03
+  03
+  03
+
+  <for 8th entry not applicable because there are only 12 ending bytes>
+
+Let's compare 5th and 13th byte side-by-side to see if we can find a pattern for 8 entries in the file containing 8 entries
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 03 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 02 | 03 | E:\System\Mp3_res\PL_2.lst
+8 | 01 | NA | E:\System\Mp3_res\PL_3.lst
+
+
+Let's compare 5th and 13th byte side-by-side to see if we can find a pattern for 9 entries in the file containing 9 entries
+
+Entry No. | 5th byte | 13th byte | Entry Path
+----------|----------|-----------|-----------
+1 | 00 | 01 | E:\System\Mp3_res\audiotemplist.temp
+2 | 00 | 02 | D:\System\Mp3_res\MyMusic.lst
+3 | 00 | 02 | D:\System\Mp3_res\list1.lst
+4 | 00 | 02 | D:\System\Mp3_res\list2.lst
+5 | 00 | 03 | D:\System\Mp3_res\list3.lst
+||
+6 | 03 | 03 | E:\System\Mp3_res\PL_1.lst
+7 | 02 | 03 | E:\System\Mp3_res\PL_2.lst
+8 | 02 | 03 | E:\System\Mp3_res\PL_3.lst
+9 | 00 | NA | E:\System\Mp3_res\PL_4.lst
+
+
+In BOTH THE FILES
+  the 5th byte value is following:
+    for 1st to 5th entries is 00
+
+  the 13th byte value is following:
+    for 1st entry is 01
+    for 2nd to 4th entries is 02
+    for 5th entry is 03
+
+In file containing 8 entries
+  the 5th byte value is following:
+    for 6th entry is 03
+    for 7th entry is 02
+    for 8th entry is 01
+
+  Starting from number of user-created playlists and decreasing by 1.
+
+In file containing 9 entries
+  the 5th byte value is following:
+    for 6th entry is 03
+    for 7th to 8th entries is 02
+    for 9th entry is 00
+
+$$$$$$$
+
+In file containing 8 entries
+  the 13th byte value is following:
+    for 6th to 7th entries is 03
+    for 8th entry is NA
+
+  I guess it is the number of user-created playlists and set for all but last entry.
+
+In file containing 9 entries
+  the 5th byte value is following:
+    for 6th to 8th entries is 03
+    for 9th entry is NA
+
+  Looking at this the previous observation for  13th byte value in file containing 8 entries
+  i.e. "number of user-created playlists and set for all but last entry" doesn't look correct.
+  because in this file number of user-created playlists is 4.
+
+  Let's do this. We remove all user-created playlists and then create one and analyse.
+  The create one making it two user-created playlists and analyse.
+  For three and four playlists we already have done the analysis.
+
+
+@@@@@@@@@@@@@@@@@@@@@@
+
+---------------
+
+532
+
+- 512 bytes block (532 bytes - 20 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 18 bytes block
+  - 4 null bytes
+
+  - 5th byte (value to be decoded)
+
+  - 7 null bytes
+
+  - 13th byte (value to be decoded)
+
+  - 5 bytes
+
+  Actually since the bytes block count are always even numbers
+
+    5th byte and next 7 null bytes can be considered as 8 bytes block of which 1st byte value is to be decoded.
+
+    13th byte and next 5 null bytes can be considered as 6 bytes block of which 1st byte value is to be decoded.
+
+
+524
+
+- 512 bytes block (524 bytes - 12 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 10 bytes block
+  - 4 null bytes
+
+  - 5th byte (value to be decoded)
+
+  - 5 null bytes
+
+  Actually since the bytes block count are always even numbers
+
+    5th byte and next 5 null bytes can be considered as 6 bytes block of which 1st byte value is to be decoded.
+
+
+---------------
+
+532
+
+- 512 bytes block (532 bytes - 20 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 18 bytes block
+  - 4 null bytes
+
+  - 8 bytes block
+    - 1 byte
+
+    - 7 null bytes
+
+  - 6 bytes block
+    - 1 byte
+
+    - 5 null bytes
+
+
+524
+
+- 512 bytes block (524 bytes - 12 ending bytes)
+  - hex code of each character in path followed by null-byte
+  - remaining bytes are occupied by null bytes.
+
+- 2 bytes block
+  - 1 byte is path-length hex
+  - 1 null byte
+
+- 10 bytes block
+  - 4 null bytes
+
+  - 6 bytes block
+    - 1 byte
+
+    - 5 null bytes
+

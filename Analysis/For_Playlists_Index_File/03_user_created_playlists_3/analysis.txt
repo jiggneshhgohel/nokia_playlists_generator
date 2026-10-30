@@ -1,0 +1,212 @@
+Following is the analysis of playlists index file named `listinfo.data` containing 3 user-created playlists on phone.
+The hex-dump of that file can be found in `hex_dump.txt` in this file's folder.
+
+------
+
+In Ghex editor
+
+Each row contains 36 bytes.
+
+In 1st row the header
+
+MUSICARRAY SAVEFILE 01.00.0
+
+occupies 27 bytes. Then it is followed by 8 null bytes. Then First entry starts.
+
+First entry starts in 1st row at 36th byte (offset 0x23) and ends in 16th row at 27th byte (offset 0x236).
+Note: Offset can be found in ghex editor on bottom left when clicking a byte.
+
+Second entry starts in 16th row at 28th byte (offset 0x237) and ends in 31st row at 19th byte (offset 0x44A).
+
+Third entry starts in 31st row at 20th byte (offset 0x44B) and ends in 46th row at 11th byte (offset 0x65E).
+
+Fourth entry starts in 46th row at 12th byte (offset 0x65F) and ends in 61st row at 3rd byte (offset 0x872).
+
+Fifth entry starts in 61st row at 4th byte (offset 0x873) and ends in 75th row at 31st byte (offset 0xA86).
+
+Sixth entry starts in 75th row at 32nd byte (offset 0xA87) and ends in 90th row at 23rd byte (offset 0xC9A).
+
+Seventh entry starts in 90th row at 24th byte (offset 0xC9B) and ends in 105th row at 15th byte (offset 0xEAE).
+
+Eighth entry starts in 105th row at 16th byte (offset 0xEAF) and ends in 119th row at 35th byte (offset 0x10BA).
+
+First entry is default created temp playlist name.
+Second to Fifth entries are default playlists name.
+Sixth to Eighth entries are user created playlists name.
+
+
+~~~~~~
+
+First entry starts in 1st row at 36th byte (offset 0x23) and ends in 16th row at 27th byte (offset 0x236).
+
+So first entry starts at 36th byte.
+First entry ends at which byte?
+
+15 rows = 540 bytes.
+16th row = 27 bytes.
+
+So first entry ends at 567th byte.
+
+1st row = 1 bytes.
+2nd to 15th rows = 14 rows = 504 bytes.
+16th row = 27 bytes
+
+1 + 504 + 27
+
+So first entry contains total 532 bytes.
+
+~~~~~~~
+
+Second entry starts in 16th row at 28th byte (offset 0x237) and ends in 31st row at 19th byte (offset 0x44A).
+
+So Second entry starts at 568th byte.
+Second entry ends at which byte?
+
+30 rows = 1080 bytes.
+31st row = 19 bytes
+
+So second entry ends at 1099th byte.
+
+16th row = 9 bytes
+17th to 30th rows = that comes to 14 rows = 504 bytes.
+31st row = 19 bytes
+
+9 + 504 + 19 = 532 bytes.
+
+So second entry contains total 532 bytes.
+
+
+~~~~~~~~~~~
+
+Third entry starts in in 31st row at 20th byte (offset 0x44B) and ends in 46th row at 11th byte (offset 0x65E).
+
+So third entry starts at 1100th byte.
+Third entry ends at which byte?
+
+45 rows = 1620 bytes.
+46th row = 11 bytes
+
+So third entry ends at 1631st byte.
+
+31st row = 17 bytes
+32nd to 45th rows = that comes to 14 rows = 504 bytes.
+46th row = 11 bytes
+
+17 + 504 + 11 = 532 bytes.
+
+So third entry contains total 532 bytes.
+
+~~~~~~~~~~~
+
+Fourth entry starts in 46th row at 12th byte (offset 0x65F) and ends in 61st row at 3rd byte (offset 0x872).
+
+So fourth entry starts at 1632nd byte.
+Fourth entry ends at which byte?
+
+60 rows = 2160 bytes.
+61st row = 3 bytes
+
+So fourth entry ends at 2163rd byte.
+
+46th row = 25 bytes
+47th to 60th rows = that comes to 14 rows = 504 bytes.
+61st row = 3 bytes
+
+25 + 504 + 3 = 532 bytes.
+
+So fourth entry contains total 532 bytes.
+
+~~~~~~~~~~~
+
+Fifth entry starts in 61st row at 4th byte (offset 0x873) and ends in 75th row at 31st byte (offset 0xA86).
+
+So fifth entry starts at 2164th byte.
+Fifth entry ends at which byte?
+
+74 rows = 2664 bytes.
+75th row = 31 bytes
+
+So fifth entry ends at 2695th byte.
+
+61st row = 33 bytes
+62nd to 74th rows = that comes to 13 rows = 468 bytes.
+75th row = 31 bytes
+
+33 + 468 + 31 = 532 bytes.
+
+So fifth entry contains total 532 bytes.
+
+~~~~~~~~~~~
+
+Sixth entry starts in 75th row at 32nd byte (offset 0xA87) and ends in 90th row at 23rd byte (offset 0xC9A).
+
+So sixth entry starts at 2696th byte.
+Sixth entry ends at which byte?
+
+89 rows = 3204 bytes.
+90th row = 23 bytes
+
+So sixth entry ends at 3227th byte.
+
+75th row = 5 bytes
+76th to 89th rows = that comes to 14 rows = 504 bytes.
+90th row = 23 bytes
+
+5 + 504 + 23 = 532 bytes.
+
+So sixth entry contains total 532 bytes.
+
+~~~~~~~~~~~
+
+Seventh entry starts in 90th row at 24th byte (offset 0xC9B) and ends in 105th row at 15th byte (offset 0xEAE).
+
+So seventh entry starts at 3228th byte.
+Seventh entry ends at which byte?
+
+104 rows = 3744 bytes.
+105th row = 15 bytes
+
+So seventh entry ends at 3759th byte.
+
+90th row = 13 bytes
+91st to 104th rows = that comes to 14 rows = 504 bytes.
+105th row = 15 bytes
+
+13 + 504 + 15 = 532 bytes
+
+So seventh entry contains total 532 bytes.
+
+~~~~~~~~~~~
+
+
+Eighth entry starts in 105th row at 16th byte (offset 0xEAF) and ends in 119th row at 35th byte (offset 0x10BA).
+
+So eighth entry starts at 3760th byte.
+Eighth entry ends at which byte?
+
+118 rows = 4248 bytes.
+119th row = 35 bytes
+
+So seventh entry ends at 4283rd byte.
+
+105th row = 21 bytes
+106th to 118th rows = that comes to 13 rows = 468 bytes.
+119th row = 35 bytes
+
+21 + 468 + 35 = 524 bytes.
+
+So eighth entry contains total 524 bytes.
+
+~~~~~~~~~~~
+
+So each entry except last occupies 532 bytes.
+Last entry occupies 524 bytes.
+
+
+@@@@@@@@@@@@@@@@
+
+This is odd. Let's create one more playlist in phone and observe what amount of bytes are occupied by each entry.
+
+The continued analysis can be found in `Analysis/For_Playlists_Index_File/04_user_created_playlists_four` folder.
+
+@@@@@@@@@@@@@@@@
