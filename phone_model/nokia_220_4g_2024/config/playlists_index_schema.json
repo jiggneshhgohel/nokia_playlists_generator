@@ -1,0 +1,73 @@
+{
+  "header_entry": {
+    "size": 35,
+    "chunks": [
+      {
+        "size": 27,
+        "type": "string_hex"
+      },
+      {
+        "size": 8,
+        "type": "null_byte_hex"
+      }
+    ]
+  },
+  "playlist_entry": {
+    "size": 532,
+    "chunks": [
+      {
+        "size": 512,
+        "type": "file_path_chars_hex"
+      },
+      {
+        "size": 2,
+        "type": "file_path_length_hex"
+      },
+      {
+        "size": 4,
+        "type": "null_byte_hex"
+      },
+      {
+        "size": 1,
+        "type": "number_hex"
+      },
+      {
+        "size": 7,
+        "type": "null_byte_hex"
+      },
+      {
+        "size": 1,
+        "type": "number_hex"
+      },
+      {
+        "size": 5,
+        "type": "null_byte_hex"
+      }
+    ]
+  },
+  "last_playlist_entry": {
+    "size": 524,
+    "chunks": [
+      {
+        "size": 512,
+        "type": "file_path_chars_hex"
+      },
+      {
+        "size": 2,
+        "type": "file_path_length_hex"
+      },
+      {
+        "size": 4,
+        "type": "null_byte_hex"
+      },
+      {
+        "size": 1,
+        "type": "number_hex"
+      },
+      {
+        "size": 5,
+        "type": "null_byte_hex"
+      }
+    ]
+  }
+}

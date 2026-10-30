@@ -1,0 +1,18 @@
+require_relative 'playlist_generator/shared_helpers'
+
+require_relative 'playlist_generator/shared_models'
+
+require_relative 'playlists_index_generator/playlists_index_file_helpers'
+
+require_relative 'playlists_index_generator/shared_helpers'
+
+require_relative 'playlists_index_generator/playlist_entries_helpers'
+require_relative 'playlists_index_generator/default_playlists_entries_helpers'
+require_relative 'playlists_index_generator/user_created_playlists_entries_helpers'
+
+require_relative 'playlists_index_generator/header_entry_helpers'
+
+require_relative 'playlists_index_generator/main'
+
+module PlaylistsIndexGenerator
+end

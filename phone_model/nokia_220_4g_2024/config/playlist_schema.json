@@ -1,0 +1,32 @@
+{
+  "header_entry": {
+    "size": 27,
+    "chunks": [
+      {
+        "size": 27,
+        "type": "string_hex"
+      }
+    ]
+  },
+  "music_track_entry": {
+    "size": 528,
+    "chunks": [
+      {
+        "size": 512,
+        "type": "file_path_chars_hex"
+      },
+      {
+        "size": 2,
+        "type": "file_path_length_hex"
+      },
+      {
+        "size": 10,
+        "type": "file_timestamp_hex"
+      },
+      {
+        "size": 4,
+        "type": "file_size_hex"
+      }
+    ]
+  }
+}

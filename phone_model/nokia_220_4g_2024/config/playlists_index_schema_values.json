@@ -1,0 +1,169 @@
+{
+  "header_entry": {
+    "chunks_data": {
+      "1": "MUSICARRAY SAVEFILE 01.00.0"
+    }
+  },
+
+  "default_playlists": {
+    "5": {
+      "playlist_entry": {
+        "1": {
+          "chunks_data": {
+            "4": 0,
+            "6": 1
+          }
+        },
+        "unmentioned": {
+          "chunks_data": {
+            "4": 0,
+            "6": 2
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 0,
+          "6": 3
+        }
+      }
+    }
+  },
+
+  "user_created_playlists": {
+    "3": {
+      "playlist_entry": {
+        "1": {
+          "chunks_data": {
+            "4": 3,
+            "6": 3
+          }
+        },
+        "unmentioned": {
+          "chunks_data": {
+            "4": 2,
+            "6": 3
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 1
+        }
+      }
+    },
+
+    "4": {
+      "playlist_entry": {
+        "1": {
+          "chunks_data": {
+            "4": 3,
+            "6": 3
+          }
+        },
+        "unmentioned": {
+          "chunks_data": {
+            "4": 2,
+            "6": 3
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 0
+        }
+      }
+    },
+
+    "7": {
+      "playlist_entry": {
+        "unmentioned": {
+          "chunks_data": {
+            "4": 0,
+            "6": 3
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 1
+        }
+      }
+    },
+
+    "> 7": {
+      "playlist_entry": {
+        "7": {
+          "chunks_data": {
+            "4": 1,
+            "6": 3
+          }
+        },
+        "unmentioned": {
+          "chunks_data": {
+            "4": 0,
+            "6": 3
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 0
+        }
+      }
+    },
+
+    ">= 13": {
+      "playlist_entry": {
+        "2": {
+          "chunks_data": {
+            "4": 1,
+            "6": 3
+          }
+        },
+
+        "7": {
+          "chunks_data": {
+            "4": 1,
+            "6": 3
+          }
+        },
+
+        "unmentioned": {
+          "chunks_data": {
+            "4": 0,
+            "6": 3
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 0
+        }
+      }
+    },
+
+    "unmentioned": {
+      "playlist_entry": {
+        "unmentioned": {
+          "chunks_data": {
+            "4": 0,
+            "6": 3
+          }
+        }
+      },
+
+      "last_playlist_entry": {
+        "chunks_data": {
+          "4": 0
+        }
+      }
+    }
+  }
+}
